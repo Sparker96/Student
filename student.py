@@ -1,6 +1,7 @@
 from textx import metamodel_from_file
 import tkinter as tk
 from tkinter import scrolledtext
+inputFile = "stephen.stud"
 
 
 class StudentInterpreter:
@@ -244,7 +245,7 @@ if __name__ == "__main__":
     student_mm = metamodel_from_file("student.tx")
 
     # Parse the input file
-    model = student_mm.model_from_file("stephen.stud")
+    model = student_mm.model_from_file(inputFile)
 
     # Create the interpreter
     interpreter = StudentInterpreter()

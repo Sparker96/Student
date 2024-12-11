@@ -46,6 +46,13 @@
         .buttons a:hover {
             background-color: #45a049;
         }
+        .instructions {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -64,12 +71,63 @@
                 <li>Create and manage classes with assignments</li>
                 <li>Perform grade calculations and updates</li>
                 <li>Generate detailed report cards</li>
+                <li>Follows the CRUD model in functionality</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Supported Syntax</h2>
+            <ul>
+                <li><strong>Class Definition:</strong> <code>new class &lt;className&gt;</code></li>
+                <li><strong>Assignment Type:</strong> <code>new &lt;className&gt; type &lt;typeName&gt; weight &lt;FLOAT&gt;</code></li>
+                <li><strong>Assignment:</strong> <code>new &lt;className&gt; &lt;type&gt; &lt;name&gt; grade &lt;FLOAT&gt;</code></li>
+                <li><strong>Calculate:</strong> <code>calc &lt;className&gt; (type &lt;typeName&gt; (assignment &lt;assignmentName&gt;)?)?</code></li>
+                <li><strong>Update:</strong> <code>update &lt;className&gt; &lt;type&gt; &lt;name&gt; newGrade &lt;FLOAT&gt;</code></li>
+                <li><strong>Delete:</strong> <code>delete &lt;className&gt; (type &lt;typeName&gt; (assignment &lt;assignmentName&gt;)?)?</code></li>
+                <li><strong>Report:</strong> <code>REPORT &lt;className&gt;</code></li>
+                <li><strong>Comments:</strong> Lines starting with <code>//</code> are ignored.</li>
             </ul>
         </section>
         <section>
             <h2>Screenshots</h2>
             <img src="sampleProgram.png" alt="Screenshot 1 - Creating Classes">
             <img src="sampleReport.png" alt="Screenshot 2 - Report Card Generation">
+        </section>
+        <section class="instructions">
+            <h2>If You Would Like to Use This Language:</h2>
+            <ol>
+                <li>
+                    Download the <strong>student.py</strong> and <strong>student.tx</strong> files and either create your own .stud file or use one that's already been created <em>stephen.stud</em>
+                    <div class="buttons">
+                        <a href="https://github.com/Sparker96/Student/raw/main/student.py" target="_blank">student.py Download</a>
+                        <a href="https://github.com/Sparker96/Student/raw/main/student.tx" target="_blank">student.tx Download</a>
+                        <a href="https://github.com/Sparker96/Student/raw/main/stephen.stud" target="_blank">stephen.stud Download</a>
+                    </div>
+                </li>
+                <li>
+                    Make sure you have installed.
+                    <ol>
+                      <li>
+                         <strong>Python 3.10.12 or newer</strong>
+                      </li>
+                      <li>
+                      <strong>textX</strong>
+                      </li>
+                      <li>
+                        <strong>Tkinter</strong>
+                      </li>
+                    </ol>
+                </li>
+                <li>
+                     To parse your <strong>.student</strong> program and run the <strong>student.py</strong> interpreter do the following.
+                  <ol>
+                    <li>
+                       In your <strong>student.py</strong> file be sure to change the variable <strong>inputFile</strong>, at the top of the interpreter, to the path of your .stud file. 
+                    </li>
+                      In the terminal cd to your interpreter and run the command python student.py and this should execute your interpreter. 
+                  </ol>
+
+                </li>
+            </ol>
         </section>
         <div class="buttons">
             <a href="https://github.com/Sparker96/Student" target="_blank">View Repository</a>
