@@ -1,0 +1,18 @@
+Open
+new class HIST
+new HIST type Exams 30
+new HIST type Attendance 20
+new HIST type Homework 20
+new HIST type Project 30
+new HIST Exams test1 100
+new HIST Exams test2 45
+new HIST Attendance attendance 100
+new HIST Homework hw1 45
+new HIST Homework hw2 60
+new HIST Project project 80
+calc  HIST type Homework assignment hw1       //Output = 45
+update HIST Homework hw1 55
+calc HIST type Homework assignment hw1       //Output = 55
+calc HIST type Homework           //Output = 57.5
+calc HIST              //Output = 77.25
+Close

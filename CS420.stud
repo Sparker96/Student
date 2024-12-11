@@ -1,0 +1,14 @@
+Open
+new class APL
+new APL type Attendance 10
+new APL type Homework 50
+new APL type Midterm 20
+new APL type Final 20
+new APL Final final 45
+new APL Midterm midterm 50
+new APL Attendance attendance 65
+new APL Homework hw1 90.1
+new APL Homework hw2 100
+calc APL              //Output = 73
+REPORT CARD
+Close

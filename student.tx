@@ -1,0 +1,42 @@
+Model:
+    'Open'
+        classes*=ClassDefinition
+        instructions*=Instruction
+    'Close'
+;
+
+ClassDefinition:
+    'new' 'class' className=ID
+;
+
+Instruction:
+    AssignmentType | Assignment | Calculate | Update | Delete | Report
+;
+
+AssignmentType:
+    'new' className=ID 'type' typeName=ID weight=FLOAT
+;
+
+Assignment:
+    'new' className=ID type=ID name=ID grade=FLOAT
+;
+
+Calculate:
+    'calc' className=ID ('type' typeName=ID ('assignment' assignmentName=ID)?)?
+;
+
+Update:
+    'update' className=ID type=ID name=ID newGrade=FLOAT
+;
+
+Delete:
+    'delete' className=ID ('type' typeName=ID ('assignment' assignmentName=ID)?)?
+;
+
+Report:
+    'REPORT' className=ID
+;
+
+Comment:
+    /\/\/.*$/
+;

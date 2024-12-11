@@ -1,0 +1,22 @@
+Open
+new class SCI
+new SCI type Exams 30
+new SCI type Attendance 20
+new SCI type Homework 20
+new SCI type Project 30
+new SCI Exams test1 100
+new SCI Exams test2 45
+new SCI Attendance attendance 100
+new SCI Homework hw1 45
+new SCI Homework hw2 60
+new SCI Project project1 80
+calc SCI type Project
+calc SCI
+calc SCI type Homework assignment hw2
+delete SCI type Homework assignment hw2
+update SCI Homework hw1 30
+update SCI Homework hw2 30
+delete SCI
+calc SCI
+Close
+

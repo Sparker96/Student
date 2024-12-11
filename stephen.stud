@@ -1,0 +1,61 @@
+Open
+new class APL
+new class SYSTEMS
+new class SOFTWARE
+new class GAMES
+new APL type Attendance 10
+new APL type Homework 50
+new APL type Midterm 20
+new APL type Final 20
+new APL Attendance attendance 71
+new APL Homework intro 100
+new APL Homework assignment1 100
+new APL Homework assignment2 98
+new APL Homework assignment2 100
+new APL Homework assignment3 65
+new APL Homework assignment4 80
+new APL Homework assignment5 100
+new APL Homework projectProposal 100
+new APL Homework assignment6 100
+new APL Midterm midterm 81
+new APL Final final 100
+new SYSTEMS type Assignments 30
+new SYSTEMS type Project 20
+new SYSTEMS type Midterms 20
+new SYSTEMS type Final 25
+new SYSTEMS type Participation 5
+new SYSTEMS Participation attendance 70
+new SYSTEMS Assignments pa1 99.625
+new SYSTEMS Assignments pa2 82.6
+new SYSTEMS Assignments pa3 88.9
+new SYSTEMS Project project 100
+new SYSTEMS Midterms midterm1 74.5
+new SYSTEMS Midterms midterm2 84
+new SYSTEMS Final final 80
+new SOFTWARE type Exam1 15
+new SOFTWARE type Exam2 15
+new SOFTWARE type Final 15
+new SOFTWARE type Participation 15
+new SOFTWARE type TestReport 6
+new SOFTWARE type Notebook 24
+new SOFTWARE type PeerReviews 4
+new SOFTWARE type Presentation 6
+new SOFTWARE Exam1 exam1 57
+new SOFTWARE Exam2 exam2 80
+new SOFTWARE Final final 72
+new SOFTWARE Participation participation 100
+new SOFTWARE TestReport testreport 100
+new SOFTWARE Notebook notebook 100
+new SOFTWARE PeerReviews peerreviews 100
+new SOFTWARE Presentation presentation 100
+new GAMES type Projects 75
+new GAMES type Essay 10
+new GAMES type SampleProj 10
+new GAMES type PeerReview 5
+new GAMES Projects project1 100
+new GAMES Projects project2 100
+new GAMES Essay essay 100
+new GAMES SampleProj sampleproj 100
+new GAMES PeerReview peerreview 100
+REPORT CARD
+Close

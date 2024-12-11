@@ -1,0 +1,17 @@
+Open
+new class MATH
+new MATH type Exams 50
+new MATH type Homework 50
+new MATH Exams exam1 25
+new MATH Exams exam2 45
+new MATH Homework hw1 10
+new MATH Homework hw2 30
+calc MATH type Homework assignment hw1          //Output: 10
+delete MATH type Homework assignment hw1
+calc MATH type Homework assignment hw1          //Output: Not assignment named "hw1"
+delete MATH type Homework
+calc MATH type Homework              //No type named "Homework"
+calc MATH                       //Output: 35
+delete MATH
+calc MATH                       //Output: No class named "MATH"
+Close
